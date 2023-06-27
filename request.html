@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<title>Foodar Request</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div>
+			<h1 class="foodar"><img src="http://showcase.revature.com/foodar100/images/logo.png" alt="Foodar Logo" class="logo" /></h1>
+		</div>
+		<div>
+			<h1 class="otherh1">Submit your request</h1>
+		</div>
+		<div>
+			<form id="form">
+				<fieldset>
+					<p> Please fill out the form below.</p>
+					</br>
+					<p class="reqlabels">Email Address:</p>
+					</br>
+					<input type="email" name="email" class="reqTxt" placeholder="Email" required>
+					</br>
+					</br>
+					<p class="reqlabels"> Restaurant:</p>
+					</br>
+					<input type="text" name="restaurant" class="reqTxt" placeholder="Restaurant Name" required>
+					</br>
+					</br>
+					<p class="reqlabels">Choose your style:</p>
+					</br>
+					<span class="streat">
+						<label for="style-1" class="reqTreat"><b>Classic:</b> </br>This is a classic </br>treatment.</label>
+						</br>
+						</br>
+						<input type="radio" name="treat" id="style-1" class="treatClass" value="3">
+					</span>
+					<span class="streat">
+						<label for="style-2" class="reqTreat"><b>Premium: </b></br>Pinky's up!</label>
+						</br>
+						</br>
+						</br>
+						<input type="radio" name="treat" id="style-2" class="treatClass" value="5">
+					</span>
+					<span class="streat">
+						<label for="style-3" class="reqTreat"><b>Royal: </b></br>Your food is served </br>on a silver platter. </br>Literally.</label>
+						</br>
+						<input type="radio" name="treat" id="style-3" class="treatClass" value="10">
+					</span>
+					<p class="reqlabels">Tip:</p>
+					</br>
+					<span class="streat">
+						<label for="tip-1" class="reqTreat"><b>10%</b> </br>They did their job.</br></br></label>
+						</br>
+						<input type="radio" name="tip" id="tip-1" class="tipClass" value=".10">
+					</span>
+					<span class="streat">
+						<label for="tip-2" class="reqTreat"><b>15% </b></br>They made you</br>feel special.</br></label>
+						</br>
+						<input type="radio" name="tip" id="tip-2" class="tipClass" value=".15">
+					</span>
+					<span class="streat">
+						<label for="tip-3" class="reqTreat"><b>20% </b></br>I wanna give them more,</br>but this is all I have! </br></label>
+						</br>
+						<input type="radio" name="tip" id="tip-3" class="tipClass" value=".20">
+					</span>
+					<h2 id="totTxt">TOTAL: $0.00</h2>
+					<script src="total.js"></script>
+					<div>
+						<button type="submit" class="submitbutton">Request</button>
+						</br>
+						</br>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<div class="foot">
+			<span>
+				<ul class="foot">
+					<li><h4>Site Map</h4></li>
+					<li><a href="index.html" class="foot">Home</a></li>
+					<li><a href="register.html" class="foot">Register</a></li>
+					<li><a href="about.html" class="foot">How it Works</a></li>
+				</ul>
+			</span>
+			<span float: left>
+				<ul class="foot">
+					<li><h4 >Legal</h4></li>
+					<li><p>Privacy Policy</p></li>
+					<li><p>Terms & Conditions</p></li>
+				</ul>
+				</br>
+			</span>
+			<span>
+				<h4>Food is life :)</h4>
+			</span>
+			<p class="foot sep"> </p>
+			</br>
+			<p class="foot sep">&copy 2019. All rights reserved.</p>
+			<p class="foot sep version">Version 1.0</p>
+			</br>
+		</div>
+	</body>
+</html>			
+					

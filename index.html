@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<title>Foodar</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="ad.js"></script>
+	</head>
+	<body>
+		<div id="advDiv" class="advertise">
+		</div>
+		<header>
+			<div>
+				<h1 class="foodar"><img src="logo.png" alt="Foodar Logo" class="logo" /></h1>
+			</div>
+			<div class="toplinks">
+				<table>
+					<tr>
+						<th><a href="signin.html" class="toplinks">Sign-in</th>
+						<th><a href="register.html" class="toplinks">Register</a></th>
+						<th><a href="request.html" class="toplinks">Request</a></th>
+					</tr>
+				</table>
+			</div>
+		</header>
+		<div class="featimg">
+			<img src="https://www.yourvenue.net/wp-content/uploads/2016/06/venue-restaurant-and-lounge-seafood-dinner.jpg" width=100%>
+			<div class="feattxt">Try A New Meal Today! </div>
+		</div>
+		<h1 class="otherh1">HOW IT WORKS</h1>
+		<div class="intro"> <img src="menu.jpg" width=70% alt="Menu Pic"> </div>
+		<div class="intro">
+			<p><b>The process is simple.</b> We deliver whatever food you order from our partner restaurants. We provide an experience to our patrons with</p>
+			<p>utmost courtesy and hospitality. Try out Foodar today!</p>
+			<ol>
+				<li>Order your food.</li>
+				<li>Find a driver.</li>
+				<li>Place pickup request.</li>
+				<li>Enjoy!</li>
+			</ol>
+		</div>
+		<div class="featRestDiv">
+			<h1 class="otherh1"></br>Featured Restaurants</h1>
+			<span class="featRest">
+				<img src="fish.jpg" />
+				<p class="hovertxt">10% off when you order today!</p>
+				<h3>FISH & CHIPS  GALLORE!</h3>
+				<p>Since 1968, Fish & Chips Gallore! has served the bay area with its palatable array of fried fish and sailor's choice dessert.</p>
+				</br>
+			</span>
+			<span class="featRest">
+				<img src="burger.jpg" />
+				<p class="hovertxt">Order 2 burgers and enjoy a small fry on us.</p>
+				<h3>BUBBA JOE'S</h3>
+				<p>When you actually, really desire a burger, you order from Bubba Joe's.  Unlike the fast food business, we eat our own food and love it.</p>
+			</span>
+			<span class="featRest">
+				<img src="dessert.jpg" />
+				<p class="hovertxt">Just for you, we'll knock off 10% to make your wallet feel good too.</p>
+				<h3>AWWW YEAH DESSERTS</h3>
+				<p>Welcome to your favorite part of dinner, lunch, breakfast, brunch, any meal.  We know you don't need encouragement from us to eat our desserts.  Look at the picture.  You know you want it.</p>
+			</span>
+		</div>
+		<div class="blank">
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+			</br>
+		</div>
+		<div class="shortform">
+			<h3>Find a driver near you!</h3>
+			<p>Type in your zipcode below and click Go! to find a driver near you.</p>
+			</br>
+			<form id="zipForm" >
+				<input type="number" placeholder="Zipcode" name="zip" maxlength="5" id="zipcode" />
+				<button type="button" placeholder="Go!" name="go" id="go">Go!</button>
+				<p id="response"> </p>
+				<script src="functions.js"></script>
+				<script> 
+					var goBut = document.getElementById("go")
+					goBut.addEventListener("click", zipcheck);
+				</script>
+			</br>
+			</br>
+			</br>
+		</div>
+		<footer>
+			<div class="foot">
+				<span>
+					<ul class="foot">
+						<li><h4>Site Map</h4></li>
+						<li><a href="index.html" class="foot">Home</a></li>
+						<li><a href="register.html" class="foot">Register</a></li>
+						<li><a href="about.html" class="foot">How it Works</a></li>
+					</ul>
+				</span>
+				<span float: left>
+					<ul class="foot">
+						<li><h4 >Legal</h4></li>
+						<li><p>Privacy Policy</p></li>
+						<li><p>Terms & Conditions</p></li>
+					</ul>
+					</br>
+				</span>
+				<span>
+					<h4>Food is life :)</h4>
+				</span>
+				<p class="foot sep"> </p>
+				</br>
+				<p class="foot sep">&copy 2019. All rights reserved.</p>
+				<p class="foot sep version">Version 1.0</p>
+				</br>
+			</div>
+		</footer>
+	</body>
+</html>
